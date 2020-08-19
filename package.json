@@ -1,0 +1,24 @@
+{
+  "name": "chang-request",
+  "version": "1.0.0",
+  "description": "A request library supports middlewares.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changchangge/chang-request.git"
+  },
+  "keywords": [
+    "request",
+    "middleware",
+    "library"
+  ],
+  "author": "changchang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/changchangge/chang-request/issues"
+  },
+  "homepage": "https://github.com/changchangge/chang-request#readme"
+}
