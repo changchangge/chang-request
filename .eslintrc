@@ -1,0 +1,45 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended",
+        "prettier/@typescript-eslint"
+    ],
+    "rules": {
+        "semi": [0],
+        "@typescript-eslint/semi": [2],
+        "no-console": [
+            1
+        ],
+        "no-template-curly-in-string": [
+            2
+        ],
+        "no-multiple-empty-lines": [
+            2,
+            {
+                "max": 2,
+                "maxEOF": 1
+            }
+        ],
+        "@typescript-eslint/explicit-function-return-type": [
+            1,
+            {
+                "allowTypedFunctionExpressions": true,
+                "allowExpressions": true
+            }
+        ],
+        "@typescript-eslint/no-explicit-any": [
+            2
+        ],
+        "@typescript-eslint/member-delimiter-style": [
+            2
+        ],
+        "prettier/prettier": [1]
+    }
+}

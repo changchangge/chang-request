@@ -1,0 +1,10 @@
+/node_modules
+/coverage
+/.vscode
+/src
+.eslintrc
+.prettierrc
+.editorconfig
+.eslintignore
+.gitnore
+tsconfig.json
