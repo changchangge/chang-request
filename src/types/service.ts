@@ -1,3 +1,7 @@
+import { Middleware } from './middleware';
+
+type MiddlewareFn = (requsetMiddwares: Middleware[]) => Middleware[];
+
 /**
  * @interface ServiceConfig
  */
@@ -12,7 +16,7 @@ interface ServiceConfig {
    * Request Middlewares
    * 请求中间件
    */
-  middlewares?: unknown;
+  middlewares?: MiddlewareFn | Middleware[];
 
   /**
    * Request DefaultParams
