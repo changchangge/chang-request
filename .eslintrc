@@ -35,7 +35,7 @@
             }
         ],
         "@typescript-eslint/no-explicit-any": [
-            2
+           1 
         ],
         "@typescript-eslint/member-delimiter-style": [
             2

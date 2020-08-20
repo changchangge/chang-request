@@ -1,3 +1,3 @@
-const test = 123;
+import request from './request';
 
-console.log('dasdasas');
+export default request;
