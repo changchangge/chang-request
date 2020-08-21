@@ -5,7 +5,7 @@ interface RequestContext extends ObjType {
   params: ObjType;
 }
 
-interface ResponseContext extends ObjType {
+export interface ResponseContext extends ObjType {
   status: number | string;
   body?: unknown;
 }

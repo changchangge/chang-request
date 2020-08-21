@@ -1,4 +1,5 @@
 import { Middleware } from './middleware';
+import { Controller } from './controller';
 
 type MiddlewareFn = (requsetMiddwares: Middleware[]) => Middleware[];
 
@@ -10,7 +11,7 @@ interface ServiceConfig {
    * Request Controller
    * 请求控制器
    */
-  controller: unknown;
+  controller: Controller;
 
   /**
    * Request Middlewares
